@@ -1,0 +1,122 @@
+.showcase {
+  background: #003366;
+  color: #fff;
+  height: 100vh;
+}
+
+.showcase span {
+  color: #00ffef;
+}
+
+.showcase {
+  padding-top: 170px;
+}
+
+.showcase .btn {
+  border-radius: 5px;
+}
+
+.showcase .btn a:hover {
+  background-color: #00ffef;
+  color: #003366;
+}
+
+.main-header {
+  background: #003366;
+  border-bottom: 4px #00ffef solid;
+  border-top: 2px #00ffef solid;
+  color: #fff;
+}
+
+.main-header .nav-wrapper span {
+  color: #00ffef;
+}
+
+/* Utilities */
+.bg-blue {
+  color: #003366;
+}
+
+.bg-aqua {
+  color: #00ffef;
+}
+.section-about span {
+  padding-top: 20px;
+  padding-bottom: 30px !important;
+}
+
+.section-about h4 {
+  padding-bottom: 20px;
+  color: #003366;
+}
+
+.section-about .about-row {
+  padding-top: 30px;
+}
+
+.section-about img {
+  height: 300px;
+  width: 300px;
+  border-radius: 30%;
+}
+
+.section-certificates {
+  background: #003366;
+  border-bottom: 2px #00ffef solid;
+  border-top: 2px #00ffef solid;
+}
+
+.section-certificates h4 {
+  padding-bottom: 20px;
+}
+
+.section-portfolio {
+  padding-bottom: 40px;
+}
+
+.section-footer {
+  background: #003366;
+  border-top: 3px #00ffef solid;
+  padding-top: 35px !important;
+  padding-bottom: 25px !important;
+  height: 300px;
+  line-height: 1.6;
+}
+
+.section-footer .resume {
+  padding-top: 15px;
+}
+
+.section-footer .contact {
+  font-size: 18px;
+}
+
+.section-footer .social-icons {
+  margin-top: 20px;
+  /* padding-bottom: 30px; */
+  border-top: 0.3px #fff solid;
+}
+
+@media only screen and (max-width: 600px) {
+  .showcase h3 {
+    font-size: 30px;
+  }
+
+  .section-about img {
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+  }
+
+  .section-certificates h4 {
+    font-size: 25px;
+  }
+
+  .section-certificates p {
+    display: none;
+  }
+
+  .section-portfolio p {
+    display: none;
+  }
+}
