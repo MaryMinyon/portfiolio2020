@@ -40,6 +40,11 @@
 .bg-aqua {
   color: #00ffef;
 }
+
+.section-about .collection {
+  margin-top: auto;
+}
+
 .section-about span {
   padding-top: 20px;
   padding-bottom: 30px !important;
@@ -102,9 +107,14 @@
     font-size: 30px;
   }
 
+  .section-about .collection {
+    margin-top: 30px;
+  }
+
   .section-about img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
     border-radius: 30%;
   }
 
@@ -118,5 +128,11 @@
 
   .section-portfolio p {
     display: none;
+  }
+
+  .section-portfolio .carousel {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
   }
 }
